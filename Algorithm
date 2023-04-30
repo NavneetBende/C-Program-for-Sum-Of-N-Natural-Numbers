@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() 
+{ 
+    //for initialize variable
+    int Number, i, Sum = 0;
+    //to take user input
+    printf ("\n Kindly Insert an Integer Variable\n");
+    scanf ("%d", &Number);
+
+    //use for loop for these condition
+    for(i = 1; i <= Number; i++)
+    {
+         Sum = Sum + i;
+    }
+
+    //display
+    printf ("Sum of Natural Numbers = %d", Sum);
+
+    return 0;
+}
